@@ -1,0 +1,266 @@
+body {
+  background-color: #070f2b;
+  color: #fff;
+  font-family: "Reddit Mono", monospace;
+  font-weight: 400;
+}
+
+.navbar {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  list-style: none;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 40px;
+  padding-right: 4rem;
+  height: 5rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 4rem;
+
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.hero-text {
+  padding: 50px;
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text h1 span {
+  color: aqua;
+  letter-spacing: 5px;
+}
+
+.hero-text h2 {
+  text-align: start;
+}
+
+.hero-text > p {
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.hero-img {
+  padding: 50px;
+}
+.hero-img > img {
+  height: 400px;
+}
+
+.resume-container {
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  grid-template-rows: 50% 50%;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 50px;
+}
+
+.section-heading {
+  text-align: center;
+  padding: 0;
+  margin: 80px auto 0 auto;
+  font-size: 3rem;
+  font-weight: 100;
+  font-family: "Pacifico", cursive;
+}
+
+.resume-container li {
+  margin: 10px auto;
+}
+
+.education,
+.work-experience {
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.education-container,
+.experience-container {
+  padding: 0 40px;
+  color: #919191;
+}
+
+.resume-container h3 {
+  font-size: 30px;
+  color: #f4f4f2;
+  margin: 20px;
+}
+
+.resume-container p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.skills {
+  border: 2px solid;
+  border-radius: 20px;
+  grid-column: span 2;
+  margin: 50px 0;
+  padding: 0 5% 5%;
+}
+
+.skills > h3 {
+  font-size: 30px;
+  color: #f4f4f2;
+  margin: 20px;
+  text-align: center;
+}
+
+.skills-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  gap: 3%;
+}
+
+.skills-flex-container p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.skills-flex-container li {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.skill-ratings {
+  margin-left: 20px;
+}
+
+.divider {
+  width: 2px;
+  height: 220px;
+  background-color: #fff;
+}
+
+.section-divider {
+  width: 30%;
+  margin: 10px auto;
+  border-top: 6px dotted;
+}
+
+.project-container > h2 {
+  text-align: center;
+  margin: 80px auto 0 auto;
+}
+
+.project-grid-container {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: repeat(4, 300px);
+  gap: 30px;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.project-grid-container > div {
+  border: 2px solid;
+  border-radius: 30px;
+}
+
+.project-img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  border-radius: 30px;
+}
+
+.project-text {
+  padding: 0 30px;
+}
+
+.project-text > p {
+  font-size: 14px;
+}
+
+.project-text li {
+  font-size: 12px;
+}
+
+.project-text a {
+  text-decoration: underline;
+}
+
+.project-text span,
+.features-text {
+  font-weight: 700;
+}
+
+.contact-me-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 15%;
+  margin: auto 50px;
+}
+
+.contact-me-img > img {
+  height: 400px;
+}
+
+.contact-me-text > h3 {
+  font-size: 1.3rem;
+}
+
+.contact-me-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 5%;
+  margin: 40px auto;
+}
+
+.contact-me-links a {
+  padding: 30px;
+  border: 1px solid;
+  border-radius: 15px;
+  text-align: center;
+  width: 50%;
+}
+
+.contact-me-links a:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 4px aqua;
+}
+
+.link-text {
+  margin: 20px auto auto;
+}
+
+.copyright-text {
+  text-align: center;
+}
+
+.copyright-text > span {
+  color: aqua;
+}
