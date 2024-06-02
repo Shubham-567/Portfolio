@@ -297,7 +297,22 @@ a:hover {
     justify-content: center;
   }
 
+  .education,
+  .work-experience {
+    padding: 0px;
+  }
+
+  .education-container,
+  .experience-container {
+    padding: 0 20px;
+    color: #919191;
+  }
+
   .skills {
+    margin: 0;
+  }
+
+  .skill-ratings {
     margin: 0;
   }
 
@@ -347,5 +362,35 @@ a:hover {
 
   .contact-me-img > img {
     height: 200px;
+  }
+
+  .contact-me-text > h3 {
+    font-size: 1rem;
+  }
+
+  .contact-me-text > p {
+    font-size: small;
+  }
+}
+
+/* For extra small devices */
+@media (max-width: 575.98px) {
+  .skills-flex-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .skill-box {
+    width: 100%;
+  }
+
+  .contact-me-links {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .contact-me-links a {
+    width: 80%;
   }
 }
