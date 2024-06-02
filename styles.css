@@ -159,7 +159,7 @@ a:hover {
   margin-left: 20px;
 }
 
-.divider {
+.skill-divider {
   width: 2px;
   height: 220px;
   background-color: #fff;
@@ -176,7 +176,7 @@ a:hover {
   margin: 80px auto 0 auto;
 }
 
-.project-grid-container {
+.project-inner-container {
   display: grid;
   grid-template-columns: 48% 48%;
   grid-template-rows: repeat(4, 300px);
@@ -185,7 +185,7 @@ a:hover {
   padding: 50px;
 }
 
-.project-grid-container > div {
+.project-inner-container > div {
   border: 2px solid;
   border-radius: 30px;
 }
@@ -263,4 +263,89 @@ a:hover {
 
 .copyright-text > span {
   color: aqua;
+}
+
+@media (max-width: 991.98px) {
+  .hero-container {
+    flex-direction: column-reverse;
+  }
+
+  .hero-img {
+    padding: 0;
+  }
+
+  .hero-img > img {
+    margin-top: 20px;
+    height: 200px;
+  }
+
+  .hero-text {
+    width: 80%;
+  }
+  .hero-text h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .resume-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .skills {
+    margin: 0;
+  }
+
+  .skill-box {
+    width: 45%;
+  }
+
+  .skills-flex-container {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .skill-divider {
+    display: none;
+    height: 2px;
+    width: 220px;
+  }
+
+  .project-inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .project-text {
+    padding: 5%;
+    margin-bottom: 30px;
+  }
+
+  .project-img {
+    padding: 0;
+    height: 300px;
+  }
+
+  .contact-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .contact-me-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-me-img > img {
+    height: 200px;
+  }
 }
