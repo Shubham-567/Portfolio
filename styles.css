@@ -151,12 +151,8 @@ a:hover {
 
 .skills-flex-container li {
   color: #fff;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 14px;
-}
-
-.skill-ratings {
-  margin-left: 20px;
 }
 
 .skill-divider {
@@ -207,6 +203,7 @@ a:hover {
 
 .project-text li {
   font-size: 12px;
+  font-weight: 200;
 }
 
 .project-text a {
@@ -375,6 +372,63 @@ a:hover {
 
 /* For extra small devices */
 @media (max-width: 575.98px) {
+  .navbar {
+    padding: 0;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+
+  .logo {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .hero-text {
+    padding: 50px 0;
+    width: 95%;
+  }
+
+  .resume-container {
+    padding: 10px;
+  }
+
+  .resume-container h3 {
+    font-size: 1.17rem;
+  }
+
+  .resume-container p {
+    font-size: 0.8rem;
+  }
+
+  .resume-container li {
+    font-size: 12px;
+  }
+
+  .project-inner-container {
+    padding: 50px 10px;
+  }
+
+  .project-text p {
+    font-size: 12px;
+  }
+
+  .contact-me-container {
+    margin: auto 10px;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  .contact-me-text > h3 {
+    font-size: 0.8rem;
+  }
+
+  .copyright-text {
+    font-size: 10px;
+  }
+
   .skills-flex-container {
     flex-direction: column;
     justify-content: center;
@@ -387,10 +441,20 @@ a:hover {
   .contact-me-links {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 30px;
   }
 
   .contact-me-links a {
     width: 80%;
+    padding: 15px;
+  }
+
+  .contact-me-text p {
+    font-size: 10px;
+  }
+
+  .contact-me-text a p {
+    font-size: 12px;
   }
 }
